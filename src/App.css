@@ -26,7 +26,9 @@
 .shade:hover {
   cursor: pointer;
 }
-
+.emojis{
+  font-size: 2rem;
+}
 .shade-search {
   padding: 1rem 4rem;
   display: flex;
@@ -86,6 +88,9 @@
   .shade-search {
     padding: 1rem 2rem;
   }
+  .Shades-title {
+    font-size: 2rem;
+  }
 }
 
 @media screen and (max-width: 660px) {
@@ -99,5 +104,8 @@
 
   .shade-search {
     padding: 1rem 1rem;
+  }
+  .emojis{
+    display: none;
   }
 }

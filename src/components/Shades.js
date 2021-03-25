@@ -12,7 +12,6 @@ const Shades = ({ color }) => {
 
 	const createShades = (color) => {
 		const shades_color = new Values(color);
-		console.log(shades_color)
 		let shades = shades_color.shades(1);
 
 		setShades(shades);
